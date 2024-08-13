@@ -3,6 +3,9 @@ kind: pod
 metadata: 
   name: simple-pod
   namespace: roboshop
+labels:
+  environment: Dev
+  app: nginx
 
 spec:
   containers:
