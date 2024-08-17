@@ -6,9 +6,8 @@ metadata:
     name: env-vars
 spec:
   containers:
-  - name: myapp
-    image: <Image>
-    ports:
+  - name: nginx
+    image: nginx
       - containerPort: 84
     env:
     - name: environment
