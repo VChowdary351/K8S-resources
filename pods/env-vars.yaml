@@ -8,6 +8,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
+    Ports:
       - containerPort: 84
     env:
     - name: environment
