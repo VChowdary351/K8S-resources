@@ -3,9 +3,6 @@ kind: Pod
 metadata: 
   name: simple-pod
   namespace: project-1
-labels:
-  environment: dev
-  app: nginx
   
 spec:
   containers:
