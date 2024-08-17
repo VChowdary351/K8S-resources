@@ -8,7 +8,7 @@ metadata:
     app: nginx
     annotations: 
       com.project-1: "120 hours"
-      devops.url: "https://devops/project-1"
+      devops.url: "https://devops/project-1#120"
 spec:
   containers:
   - name: nginx
