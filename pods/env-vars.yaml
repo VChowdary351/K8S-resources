@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: env
   labels:
-    intention: Checking env vars
+    intention: Checking env vars1
 spec:
   containers:
   - name: myapp
