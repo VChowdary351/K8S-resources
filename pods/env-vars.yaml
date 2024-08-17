@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: env
+  labels:
+    intention: Checking env vars
+spec:
+  containers:
+  - name: myapp
+    image: <Image>
+    ports:
+      - containerPort: 84
+    env:
+    - name: environment
+      value: dev
+    - name: stage
+      value: in progress
