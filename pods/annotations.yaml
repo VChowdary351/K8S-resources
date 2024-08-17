@@ -1,0 +1,18 @@
+
+piVersion: v1
+kind: Pod
+metadata:
+  name: ant
+  labels:
+    name: ant
+    environment: dev
+    app: nginx
+    annotations: 
+      com.project-1: "120 hours"
+      devops.url: "https://devops/project-1"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    ports:
+      - containerPort: 82
