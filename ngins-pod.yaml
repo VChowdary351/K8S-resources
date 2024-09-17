@@ -1,0 +1,15 @@
+apiresource: v1
+kind: pod
+metadata:
+  name: nginx-pod
+  namespace: project
+  labels:
+    environment: dev
+    app: web
+specs:
+  containers:
+    - name: nginx-pod
+      image: nginx
+      ports:
+        containerPort: 80
+      
