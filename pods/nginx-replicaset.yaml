@@ -3,7 +3,9 @@ kind: ReplicaSet
 metadata: 
   name: nginx-replicaset
 spec:
-  replicas: 3
+  replicas: 
+  matchLabels: 
+    app: web
   template:
     metadata:
       name: nginx-pod
