@@ -3,7 +3,7 @@ kind: Deployment
 metadata: 
   name: nginx-deployment
   annotations:
-    kubernetes.io/change-cause: "Updating version"
+    kubernetes.io/change-cause: "Updating version to 1.21.3"
 
 spec:
   replicas: 3
