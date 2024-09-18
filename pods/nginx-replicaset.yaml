@@ -2,8 +2,9 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata: 
   name: nginx-replicaset
+
 spec:
-  replicas: 
+  replicas: 3
   matchLabels: 
     app: web
   template:
