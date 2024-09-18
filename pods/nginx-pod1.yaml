@@ -6,10 +6,9 @@ metadata:
   labels:
     environment: dev
     app: web
-specs:
+spec:
   containers:
     - name: nginx-pod
       image: nginx:latest
       ports:
         containerPort: 80
-      
